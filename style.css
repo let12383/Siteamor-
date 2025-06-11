@@ -1,0 +1,54 @@
+body {
+  background: #ffe6e6;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 102, 0.3);
+}
+
+h1 {
+  color: #e60073;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff4da6;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e60073;
+}
+
+.heart-image {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.mensagem-secreta {
+  margin-top: 20px;
+  color: #e60073;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+}
